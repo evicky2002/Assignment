@@ -117,7 +117,7 @@ fun CommentListItem(comment: Comment){
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.Start
             ) {
-                Icon(imageVector = Icons.Default.ThumbUp, contentDescription = "",
+                Icon(painterResource(id = R.drawable.heart_solid), contentDescription = "",
                     modifier = Modifier
                         .padding(end = 5.dp)
                         .width(20.dp)
